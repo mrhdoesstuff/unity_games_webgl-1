@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "COMP305_Lab",
+"dataUrl": "Lab5_WebGL_build.data.unityweb",
+"asmCodeUrl": "Lab5_WebGL_build.asm.code.unityweb",
+"asmMemoryUrl": "Lab5_WebGL_build.asm.memory.unityweb",
+"asmFrameworkUrl": "Lab5_WebGL_build.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
