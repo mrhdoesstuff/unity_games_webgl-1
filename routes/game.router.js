@@ -9,7 +9,7 @@ gameRouter.get('/lab5', (req, res)=>{
 
 gameRouter.get('/timelinetrouble_alpha', (req, res)=>{
     console.log("play timelinetrouble_alpha ...")
-    res.render('TimelineTrouble_ALPHA/index.html');
+    res.render('timelinetrouble_alpha/index.html');
 });
 
 gameRouter.get('/', (req, res)=>{
