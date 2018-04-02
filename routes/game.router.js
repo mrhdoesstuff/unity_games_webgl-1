@@ -7,16 +7,16 @@ gameRouter.get('/lab5', (req, res)=>{
     res.render('lab5/index.html');
 });
 
-gameRouter.get('/timelinetrouble_alpha', (req, res)=>{
-    console.log("play timelinetrouble_alpha ...")
-    res.render('timelinetrouble_alpha/index.html');
+gameRouter.get('/timelinetrouble', (req, res)=>{
+    console.log("play timelinetrouble ...")
+    res.render('timelinetrouble/index.html');
 });
 
 gameRouter.get('/', (req, res)=>{
     res.json({
         "url": [
                 "/lab5"
-                ,"/timelinetrouble_alpha"
+                ,"/timelinetrouble"
                 ]
             });
 });
