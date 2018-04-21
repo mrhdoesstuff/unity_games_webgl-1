@@ -8,8 +8,13 @@ gameRouter.get('/lab5', (req, res)=>{
 });
 
 gameRouter.get('/timelinetrouble', (req, res)=>{
-    console.log("play timelinetrouble ...")
+    console.log("play timelinetrouble(final) ...")
     res.render('timelinetrouble/index.html');
+});
+
+gameRouter.get('/timelinetrouble1', (req, res)=>{
+    console.log("play timelinetrouble1 ...")
+    res.render('timelinetrouble1/index.html');
 });
 
 gameRouter.get('/timelinetrouble2', (req, res)=>{
