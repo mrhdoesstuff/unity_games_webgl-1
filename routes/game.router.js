@@ -31,6 +31,11 @@ gameRouter.get('/timelinetrouble4', (req, res)=>{
     res.render('timelinetrouble4/index.html');
 });
 
+gameRouter.get('/timelinetrouble5', (req, res)=>{
+    console.log("play timelinetrouble5 (before final)...")
+    res.render('timelinetrouble/index.html');
+});
+
 gameRouter.get('/', (req, res)=>{
     res.json({
         "url": [
